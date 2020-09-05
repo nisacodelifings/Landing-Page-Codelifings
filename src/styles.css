@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine&display=swap");
+body {
+  margin: 0;
+  font-family: "Cousine", monospace;
+}
+header {
+  background: #c8578f;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  color: #fff;
+  border-bottom: 20px solid #ff6ab3;
+  padding-left: 10px;
+}
+h1 {
+  border-bottom: 2px solid white;
+  width: 220px;
+}
+.desc {
+  font-size: 17pt;
+  text-align: left;
+}
+main {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.judul {
+  display: flex;
+  justify-content: center;
+}
+.judul h3 {
+  padding: 10px;
+  color: #000;
+  border-bottom: 3px solid #c8578f;
+  border-left: 3px solid #c8578f;
+}
+.isi {
+  justify-content: center;
+  text-align: justify;
+  padding: 20px;
+}
+@media screen and (min-width: 480px) {
+  .isi {
+    width: 480px;
+  }
+}
+a {
+  border-bottom: 3px solid #c8578f;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+  background: #0971f1;
+}
+.order a h3 {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000;
+  border-bottom: 3px solid #c8578f;
+  border: 3px solid #c8578f;
+  box-shadow: 6px 6px 0px 0px #c8578f;
+  cursor: pointer;
+}
+.order a h3:active {
+  border: 3px solid #c8578f;
+  box-shadow: none;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.nisa {
+  border-bottom: 2px solid #fff;
+  padding: 2px;
+}
+.nisa:active,
+.nisa:hover {
+  background: #0971f1;
+}
