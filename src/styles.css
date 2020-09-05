@@ -80,3 +80,18 @@ a:hover {
 .nisa:hover {
   background: #0971f1;
 }
+.warn a h3 {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: red;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-bottom: 3px solid red;
+  border: 3px solid red;
+  box-shadow: 6px 6px 0px 0px red;
+  text-align: center;
+  margin-left: 25px;
+}
