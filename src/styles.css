@@ -14,12 +14,7 @@ header {
   padding-left: 10px;
 }
 h1 {
-  border-bottom: 2px solid white;
   width: 220px;
-}
-.desc {
-  font-size: 17pt;
-  text-align: left;
 }
 main {
   text-align: center;
@@ -47,6 +42,13 @@ main {
   .isi,
   .warn {
     width: 450px;
+  }
+}
+@media screen and (max-width:580px){
+  .desc{
+    width: 220px;
+    display: flex;
+    justify-content: center;
   }
 }
 a {
