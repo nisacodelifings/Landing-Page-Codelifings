@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: "Cousine", monospace;
+  background: #0a0a23;
 }
 header {
   background: #c8578f;
@@ -22,7 +23,7 @@ h1 {
 }
 main {
   text-align: center;
-  color: black;
+  color: #fff;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -33,7 +34,7 @@ main {
 }
 .judul h3 {
   padding: 10px;
-  color: #000;
+  color: #fff;
   border-bottom: 3px solid #c8578f;
   border-left: 3px solid #c8578f;
 }
@@ -43,14 +44,15 @@ main {
   padding: 20px;
 }
 @media screen and (min-width: 480px) {
-  .isi {
-    width: 480px;
+  .isi,
+  .warn {
+    width: 450px;
   }
 }
 a {
   border-bottom: 3px solid #c8578f;
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 a:hover {
   color: white;
@@ -60,13 +62,14 @@ a:hover {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #000;
+  color: #fff;
   border-bottom: 3px solid #c8578f;
   border: 3px solid #c8578f;
   box-shadow: 6px 6px 0px 0px #c8578f;
   cursor: pointer;
 }
-.order a h3:active {
+.order a h3:active,
+.order a h3:hover {
   border: 3px solid #c8578f;
   box-shadow: none;
   margin-left: 6px;
@@ -79,19 +82,4 @@ a:hover {
 .nisa:active,
 .nisa:hover {
   background: #0971f1;
-}
-.warn a h3 {
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: red;
-  width: 400px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  border-bottom: 3px solid red;
-  border: 3px solid red;
-  box-shadow: 6px 6px 0px 0px red;
-  text-align: center;
-  margin-left: 25px;
 }
