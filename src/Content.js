@@ -1,27 +1,26 @@
 import React from "react";
+import Content4 from "./Content4";
 
 export default function Content() {
   return (
     <main>
       <div>
         <h2>Punya Bisnis/Usaha?</h2>
-        <h3>Go online-in aja!!</h3>
-        <span style={{ fontSize: "50pt" }}>&#8595;</span>
-        <main>
-          <p className="desc">
-            Terima Jasa Pembuatan Landing Page dan Web Company
-          </p>
-        </main>
+        <h3>Harus Punya Website nya dong!</h3>
+        <Content4 />
         <div className="judul">
-          <h3>Apa itu Landing Page?</h3>
+          <h3>Kenapa harus punya Website?</h3>
         </div>
-        <div className="isi">
-          Landing Page adalah solusi promosi untuk anda yang sedang berbisnis
-          layaknya sebuah selembaran iklan yang disebarluas secara online di
-          Internet.{" "}
+        <div className="isi" style={{textAlign:"center",color:"#C8578F"}}>
+          Dengan membangun sebuah website berarti Anda memberi kesempatan pada
+          bisnis Anda untuk memberi tahu konsumen mengapa mereka harus
+          mempercayai Anda.{" "}
           <p>
-            Contohnya adalah <a>Website ini sendiri</a>.
+            Selain itu, Website dapat memudahkan konsumen untuk mencari <a>Informasi penting</a>.
           </p>
+          <p>
+            seperti, Info kontak Whatsapp, Alamat Kantor, Social Media dan Lain sebagainya untuk kepentingan Bisnis anda.
+            </p>
         </div>
       </div>
     </main>

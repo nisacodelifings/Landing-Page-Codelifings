@@ -6,8 +6,7 @@ export default function Warning() {
       <div className="warn">
         <a>
           <h3>
-            Perhatian! tiap revisi anda akan dikenakan recharge sebesar 25k
-            walau sekecil apapun revisi anda.
+            Perhatian! Revisi anda FREE hingga 5x. dan Setelahnya +20k~ 
           </h3>
         </a>
       </div>
