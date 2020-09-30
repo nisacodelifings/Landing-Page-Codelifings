@@ -7,7 +7,7 @@ export default function Content2() {
         <div className="judul">
           <h3>Karya Codelifings</h3>
         </div>
-        <div className="isi" style={{ textAlign: "center", color: "#C8578F" }}>
+        <div className="isi" style={{ textAlign: "center", color: "pink" }}>
           <img
             style={{ borderRadius: "50%", width: "100px" }}
             src="https://res.cloudinary.com/codelifings/image/upload/v1584323346/images_qpkdkz.jpg"

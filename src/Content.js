@@ -11,16 +11,18 @@ export default function Content() {
         <div className="judul">
           <h3>Kenapa harus punya Website?</h3>
         </div>
-        <div className="isi" style={{textAlign:"center",color:"#C8578F"}}>
+        <div className="isi" style={{ textAlign: "center", color: "pink" }}>
           Dengan membangun sebuah website berarti Anda memberi kesempatan pada
           bisnis Anda untuk memberi tahu konsumen mengapa mereka harus
           mempercayai Anda.{" "}
           <p>
-            Selain itu, Website dapat memudahkan konsumen untuk mencari <a>Informasi penting</a>.
+            Selain itu, Website dapat memudahkan konsumen untuk mencari{" "}
+            <a>Informasi penting</a>.
           </p>
           <p>
-            seperti, Info kontak Whatsapp, Alamat Kantor, Social Media dan Lain sebagainya untuk kepentingan Bisnis anda.
-            </p>
+            seperti, Info kontak Whatsapp, Alamat Kantor, Social Media dan Lain
+            sebagainya untuk kepentingan Bisnis anda.
+          </p>
         </div>
       </div>
     </main>
