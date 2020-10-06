@@ -7,7 +7,7 @@ export default function Content3() {
         <div className="judul">
           <h3>Kenapa Harus order pada kami?</h3>
         </div>
-        <div className="isi" style={{ color: "pink", textAlign: "center" }}>
+        <div className="isi" style={{  textAlign: "center" }}>
           <img src="https://res.cloudinary.com/codelifings/image/upload/v1593049801/Screenshot_8_zjvyvj.png" />
           <br />
           <br />

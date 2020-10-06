@@ -11,7 +11,7 @@ export default function Content() {
         <div className="judul">
           <h3>Kenapa harus punya Website?</h3>
         </div>
-        <div className="isi" style={{ textAlign: "center", color: "pink" }}>
+        <div className="isi" style={{ textAlign: "center" }}>
           Dengan membangun sebuah website berarti Anda memberi kesempatan pada
           bisnis Anda untuk memberi tahu konsumen mengapa mereka harus
           mempercayai Anda.{" "}
@@ -23,6 +23,18 @@ export default function Content() {
             seperti, Info kontak Whatsapp, Alamat Kantor, Social Media dan Lain
             sebagainya untuk kepentingan Bisnis anda.
           </p>
+        </div>
+        <div className="judul">
+          <h3>Pilih Website Layanan</h3>
+        </div>
+        <div className="isi" style={{ textAlign: "center" }}>
+          <p>
+            Serahkan Desain Web pada kami.. Tentunya berdasarkan Kriteria
+            Keinginan anda
+          </p>
+          -WORDPRESS (dapat CMS) <br />
+          -Website Custom Berbasis NETLIFY <br />
+          -Website Berbasis GOOGLE SITES <br />
         </div>
       </div>
     </main>
