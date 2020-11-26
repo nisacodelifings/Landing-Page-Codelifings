@@ -14,7 +14,7 @@ export default function Content3() {
           Web anda dibuat dari 0 alias dari koding dan <a>
             bukan DRAG-n-DROP
           </a>{" "}
-          sehingga waktu pengerjaan sekitar 2-3 hari.
+          sehingga waktu pengerjaan sekitar 5 hari.
           <br />
           <br />
           Kami Menggunakan Teknologi Web Terbaru agar Website anda dapat diakses

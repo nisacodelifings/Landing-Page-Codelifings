@@ -25,16 +25,15 @@ export default function Content() {
           </p>
         </div>
         <div className="judul">
-          <h3>Pilih Website Layanan</h3>
+          <h3>Anda akan mendapatkan</h3>
         </div>
         <div className="isi" style={{ textAlign: "center" }}>
           <p>
-            Serahkan Desain Web pada kami.. Tentunya berdasarkan Kriteria
-            Keinginan anda
+            Hosting FREE FOREVER &#10004; <br />
+           Domain Netlify FREE FOREVER &#10004; <br />
           </p>
-          -WORDPRESS (dapat CMS) <br />
-          -Website Custom Berbasis NETLIFY <br />
-          -Website Berbasis GOOGLE SITES <br />
+          <p>Kami hanya melayani pembuatan Website yang kontennya bersifat statis (tidak berubah-ubah) seperti website <a href="https://pn-painan.netlify.com">ini</a>, <a href="https://zasieramukena.online">ini</a> dan <a href="https://agungjayakreasi.online">ini</a></p>
+          
         </div>
       </div>
     </main>
