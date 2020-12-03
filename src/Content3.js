@@ -4,8 +4,9 @@ export default function Content3() {
   return (
     <main>
       <div>
-        <div className="isi" style={{  textAlign: "center" }}>
-          <img src="https://res.cloudinary.com/codelifings/image/upload/v1593049801/Screenshot_8_zjvyvj.png" />
+      <img src="https://res.cloudinary.com/codelifings/image/upload/v1593049801/Screenshot_8_zjvyvj.png" />
+         
+        <div className="isi" style={{  textAlign: "justify" }}>
           <br />
           <br />
           <br />
