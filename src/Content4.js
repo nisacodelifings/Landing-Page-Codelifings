@@ -5,10 +5,10 @@ export default function Content4() {
     <main>
       <div className="order">
         <span>
-         Harganya Hanya <span style={{ fontSize: "30pt" }}>1500k</span> saja!
+          <span style={{ fontSize: "30pt" }}>500k/day</span>
         </span>
         <a href="https://wa.me/6289508320163">
-          <h3>Order Sekarang</h3>
+          <h3>Hire Me</h3>
         </a>
       </div>
     </main>
