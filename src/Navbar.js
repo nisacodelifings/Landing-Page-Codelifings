@@ -9,7 +9,7 @@ export default function Header() {
         <a
             style={{ color: "white" }}
             className="nisa"
-            href="https://nisacodelifings.netlify.com"
+            href="https://www.nisacodelifings.space"
           >
             Annisa Puspitasari
           </a>

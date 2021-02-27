@@ -13,11 +13,10 @@ export default function Content2() {
           <img src="https://res.cloudinary.com/codelifings/image/upload/v1585726690/a_zftq8g.png" />
           <p>
             Lainnya: <br/><br/>
-<a href="https://jasadeploywebstatis.netlify.com/">Jasa Deploy Website Statis</a><br/><br/>
-<a href="https://mukenazasiera.netlify.com/">Landing Page Mukena Zasiera</a><br/><br/>
-<a href="https://pengadilan-negeripainan.netlify.com/">Situs Pengadilan Negeri Painan</a><br/><br/>
-<a href="https://ajkprinting.netlify.com/">Situs Resmi Ajkprinting</a><br/><br/>
-<a href="https://kebayaqu.netlify.com/">Situs Resmi KebayaQu</a><br /><br/>
+<a href="https://jasadeploywebstatis.vercel.app/">Jasa Deploy Website Statis</a><br/><br/>
+<a href="https://mukenazasiera.vercel.app/">Landing Page Mukena Zasiera</a><br/><br/>
+<a href="https://pn-painan.vercel.app/">Situs Pengadilan Negeri Painan</a><br/><br/>
+<a href="https://kebayaqu.vercel.app/">Situs Resmi KebayaQu</a><br /><br/>
 
           </p>
         </div>
