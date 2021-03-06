@@ -6,11 +6,7 @@ export default function Header() {
       <div>
         <h2>&copy; Codelifings</h2>
         <p>
-        <a
-            style={{ color: "white" }}
-            className="nisa"
-            href="https://www.nisacodelifings.space"
-          >
+          <a href="https://www.nisacodelifings.space" style={{ color: "white" }} className="nisa">
             Annisa Puspitasari
           </a>
         </p>

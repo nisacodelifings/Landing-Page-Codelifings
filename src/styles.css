@@ -4,6 +4,23 @@ body {
   font-family: "Cousine", monospace;
   background: #0a0a23;
 }
+::selection{
+ color: #0971f1;
+}
+.youtube-responsive-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+  }
+  .youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  }
 header {
   background: #c8578f;
   display: flex;
@@ -41,19 +58,7 @@ main {
 .isi > li {
   list-style: none;
 }
-@media screen and (min-width: 480px) {
-  .isi,
-  .warn {
-    width: 450px;
-  }
-}
-@media screen and (max-width: 580px) {
-  .desc {
-    width: 220px;
-    display: flex;
-    justify-content: center;
-  }
-}
+
 a {
   border-bottom: 3px solid #c8578f;
   text-decoration: none;
@@ -63,9 +68,7 @@ a:hover {
   color: white;
   background: #0971f1;
 }
-img{
-  width: 250px;
-}
+
 .order a h3 {
   padding: 5px;
   position: relative;
